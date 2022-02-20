@@ -1,0 +1,130 @@
+
+:root{
+    --roboto :'Roboto', sans-serif;
+   --Montserrat: 'Montserrat', sans-serif;
+--OldStandardTT: 'Old Standard TT', serif;
+--Opensans: 'Open Sans', sans-serif;
+--Oswald: 'Oswald', sans-serif;
+--Oxygen: 'Oxygen', sans-serif;
+--Poppins: 'Poppins', sans-serif;
+--SourceSan: 'Source Sans Pro', sans-serif;
+}
+
+
+.libqoute{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.libqoutecon{
+    position: relative;
+    background-color: rgb(145, 145, 145);
+    padding: 50px;
+    font-size: 30px;
+    color: rgb(68, 68, 68);
+}
+
+.libqoutecon p{
+    position: relative;
+    font-family: var(--Opensans);
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.libqoutecon::before{
+content: ",,";
+font-size: 100px;
+font-family: var(--Oswald);
+position: absolute;
+top: -90%;
+transform: scale3d(2,2,2);
+}
+
+.libqoutecon p::before{
+    content: "";
+    width: 20%;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 100px;
+    position: absolute;
+    bottom: -3px;
+    right: -10px;
+}
+
+
+.notes{
+    padding: 5vh 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.note{
+    padding: 5vh 0;
+    max-width: 400px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.note img{
+width: 50%;
+height: 200px;
+margin: 0 auto;
+}
+
+.notedis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+.notedis p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 4, 29);
+    padding: 15px;
+}
+.notedis a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 10px;
+    color: rgb(77, 77, 77);
+    font-family: var(--Oxygen);
+    font-weight: 900;
+    transition: 700ms;
+}
+.othernote a:hover,
+.notedis a:hover{
+    background-color: chartreuse;
+    
+}
+
+.othernote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ; 
+    box-shadow: 0 0 1px 1px #333;
+    color: #333;
+}
+.othernote p {
+    font-family: var(--roboto);
+font-weight: 600;
+}
+.othernote a{
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 10px;
+    color: rgb(77, 77, 77);
+    font-family: var(--Oxygen);
+    font-weight: 900;
+    transition: 700ms;
+}
