@@ -16,13 +16,14 @@ ham.addEventListener("click", () => {
         bar2.style.display = "block"
         bar1.style.transform = "rotate(0deg)"
         bar3.style.transform ="rotate(0deg)"
-       
+       ham.style.gap="4px"
 
     } else {
         links.style.transform = "translate(0%)"
         bar2.style.display = "none"
-        bar1.style.transform = "rotate(145deg)"
-        bar3.style.transform ="rotate(-145deg)"
+        bar1.style.transform = "rotate(-45deg)"
+        bar3.style.transform ="rotate(-135deg)"
+       ham.style.gap="0px"
         
 
     }
